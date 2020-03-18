@@ -13,6 +13,9 @@ img {
 
     vertical-align: middle;
 }
+a {
+    text-decoration: none;
+}
 
 /*END OF COMMON CSS*/
 
@@ -53,7 +56,38 @@ img {
     color: #ffffff;
     font-family: monospace;
     text-align: center;
-    padding-top: 295px;
+    padding-top: 200px;
+}
+
+.label {
+    font-family: monospace;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+button {
+    height: 60px;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.0);
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+button a {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+button:hover {
+    border-color: #30ac01;
+}
+
+button a:hover {
+    color: #ff5800;
+
 }
 
 /* 2020 © Mushphyqur Rahman Tanveer */
